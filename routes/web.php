@@ -20,15 +20,15 @@ Route::get('inventory', function () {return view('inventory');});
 
 Route::get('purchases', function () {return view('purchases');});
 
-Route::get('dashboard', function () {return view('dashboard');});
+Route::get('expenses', function () {return view('expenses');});
 
-Route::get('dashboard', function () {return view('dashboard');});
+Route::get('reports', function () {return view('reports');});
 
-Route::get('dashboard', function () {return view('dashboard');});
+Route::get('stakeholders', function () {return view('stakeholders');});
 
-Route::get('dashboard', function () {return view('dashboard');});
+Route::get('users', function () {return view('users');});
 
-Route::get('dashboard', function () {return view('dashboard');});
+Route::get('settings', function () {return view('settings');});
 
 Route::get('dashboard', function () {return view('dashboard');});
 
